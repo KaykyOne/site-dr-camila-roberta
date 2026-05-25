@@ -78,6 +78,10 @@ a:hover {
   padding: 280px 0;
 }
 
+[data-scroll-index] {
+  scroll-margin-top: 95px;
+}
+
 .section-head {
   margin-bottom: 80px;
 }
@@ -665,6 +669,11 @@ a:hover {
   background: var(--color-white);
   -webkit-box-shadow: var(--shadow-card);
   box-shadow: var(--shadow-card);
+}
+
+.section-sobre-dra .box-white {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-box .skills .skill-item {
@@ -1400,6 +1409,10 @@ footer p {
 
   .services hr {
     display: none;
+  }
+
+  [data-scroll-index] {
+    scroll-margin-top: 75px;
   }
 }
 
