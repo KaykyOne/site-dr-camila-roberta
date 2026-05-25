@@ -1,0 +1,25 @@
+:root {
+  --font-body: 'Rubik', sans-serif;
+  --font-icon: 'Font Awesome 5 Free';
+
+  --color-primary: #58d4cf;
+  --color-primary-dark: #3dbcb7;
+  --color-secondary: #b68ad8;
+  --color-accent: #ecc4dc;
+  --color-danger: #890606;
+  --color-white: #fff;
+  --color-light: #f7f7f7;
+  --color-border: #eee;
+  --color-border-soft: #ddd;
+  --color-text: #605f54;
+  --color-heading: #1c3035;
+  --color-muted: #eee;
+
+  --shadow-soft: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  --shadow-card: 0px 8px 30px rgba(0, 0, 0, 0.08);
+  --shadow-deep: 0px 10px 30px rgba(0, 0, 0, 0.2);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 30px;
+}

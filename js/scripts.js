@@ -30,12 +30,11 @@ $(function() {
         if(bodyScroll > 100){
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo/logotipo_casapediatra.svg');
+            logo.attr('src', 'img/logo/logo_completa.png');
 
         }else{
-
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo/logotipo_casapediatra_branco.svg');
+            logo.attr('src', 'img/logo/logo_completa.png');
         }
     });
 
