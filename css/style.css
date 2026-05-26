@@ -310,6 +310,7 @@ a:hover {
   color: var(--color-heading);
 }
 
+
 .butn-head {
   background: var(--color-danger);
   border-color: var(--color-danger);
@@ -1560,3 +1561,9 @@ footer p {
 
 /*# sourceMappingURL=style.css.map */
 
+/* Reduce .small-in-pc by 20% on desktop screens */
+@media screen and (min-width: 992px) {
+  .small-in-pc {
+    font-size: 40px !important;
+  }
+}
